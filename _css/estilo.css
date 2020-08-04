@@ -30,11 +30,10 @@ div#interface{
     padding: 1px 10px 10px 10px;
 }
 header#cabecalho{
-    border-bottom: 1px #6D351A solid;
-    background-color: #6D351A ;
+    border-bottom: 1px #301102 solid;
+    background-color: #301102 ;
     height: 150px;
 }
-
 header#cabecalho h1{
    font-family: Arial, sans-serif;
    color: #ffffff;
@@ -42,8 +41,57 @@ header#cabecalho h1{
    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
    padding: 0px;
    margin-bottom: 0px;
+   margin-left: 10px;
+}
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+nav#menu{
+    display: block;/*Configuração padrão de inicio de menu*/
+}
+nav#menu ul {
+    list-style: none; /*retira as marcações*/
+    text-transform: uppercase; /* coloca as letras em maiusculas*/
+    position: absolute; /*consegue posicionar em qualquer lugar dentro do header*/
+    top: 120px;
+    left: -13px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #301102;
+    padding: 10px;/*espessura da borda*/
+    margin: 2px;/*espeço ente os botões*/
+    transition: background-color 0.5s;/*suavizar troca de cor*/
 }
 
-header#cabecalho h2{
-   
+nav#menu li:hover{
+    background-color: #632c10;/*troca cor de fundo quando passa o mouse*/
+}
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: #ffffff; /*altera cor do link*/
+    text-decoration: none;/* retira subilinhado*/
+}
+
+/*section#corpo{
+    display: block;
+    width: 700px;
+    float: left;
+    border-right: 1px;
+    padding-right: 15px;
+}*/
+article#noticia-principal h2{
+    font-size: 12pt;
+    color: #ffffff;
+    background-color: #af4e1d;
+    padding: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 0px;
 }
