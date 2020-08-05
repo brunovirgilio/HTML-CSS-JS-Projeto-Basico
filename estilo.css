@@ -68,30 +68,73 @@ nav#menu li{
     margin: 2px;/*espeço ente os botões*/
     transition: background-color 0.5s;/*suavizar troca de cor*/
 }
-
 nav#menu li:hover{
     background-color: #632c10;/*troca cor de fundo quando passa o mouse*/
 }
 nav#menu h1{
     display: none;
 }
-
 nav#menu a{
     color: #ffffff; /*altera cor do link*/
     text-decoration: none;/* retira subilinhado*/
 }
-
-/*section#corpo{
+section#corpo{ 
     display: block;
-    width: 700px;
+    width: 900px;
     float: left;
-    border-right: 1px;
+    border-right: 1px solid #af4e1d;
     padding-right: 15px;
-}*/
-article#noticia-principal h2{
+}
+
+article#noticia-principal h2{ /*Essa parte configura so o artigo */
     font-size: 12pt;
     color: #ffffff;
     background-color: #af4e1d;
     padding: 5px 0px 5px 0px;
     margin: 10px 0px 10px 0px;
+}
+header#cabecalho-artigo h1{
+    font-family: Arial, sans-serif;
+    font-size: 20pt;
+    color: #6D351A;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #db8960;
+    background-color: #ffffff;
+    margin: 0px;
+}
+header#cabecalho-artigo h3{
+    font-size: 12pt;
+    color:  #af4e1d;
+
+}
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: #af4e1d;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+
+}
+
+aside#lateral h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #ffffff;
+    margin-top: 0px;
+}
+footer#rodape{
+    clear: both; /*O que será?*/
+    border-top: 1px solid  #af4e1d;
+}
+footer#rodape p{
+    text-align: center;
 }
