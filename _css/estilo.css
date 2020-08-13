@@ -178,7 +178,6 @@ aside#lateral {
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
     font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
-
 }
 
 aside#lateral h1{
@@ -186,6 +185,16 @@ aside#lateral h1{
     font-size: 20pt;
     color: #ffffff;
     margin-top: 0px;
+}
+
+div#tv{
+
+    margin: auto;
+}
+video#filme{
+    display: block;
+    position: relative;
+    width: 300px;
 }
 footer#rodape{
     clear: both; /*O que será?*/

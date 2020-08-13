@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div#tv{
+    width:900px;
+    height: 580px;
+    margin: auto;
+    background: url("../_imagens/tv-desligada.png") no-repeat;
+}
+
+video#filme{
+    display: block;
+    position: relative;
+    left: 55px;
+    top: 55px;
+    width: 400px;
+}
