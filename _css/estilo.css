@@ -32,7 +32,7 @@ div#interface{
 header#cabecalho{
     border-bottom: 1px #301102 solid;
     background-color: #301102 ;
-    background: url("../_imagens/cabecalho-torra.jpg");
+    background: url("../_imagens/cabecalho-fruta.jpg");
     height: 150px;
 }
 header#cabecalho h1{
