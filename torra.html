@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Café Brasilis - Torra</title>
+    <title>Caneca de Café - Torra</title>
     <link rel="stylesheet" href="_css/estilo.css"/>
     <link rel="stylesheet" href="_css/fotos.css"/>
 </head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
 <body>
     <div id="interface">
         <header id="cabecalho">
             <hgroup>
-                <h1>Café Brasilis</h1>
+                <h1>Caneca de Café</h1>
                 <h2>A cultura do Brasil</h2>
             </hgroup>
+            <img id="icone" src="_imagens/icone-torra.jpg"/>
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul type="disc">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="fruta.html">Fruta</a></li>
-                    <li><a href="torra.html">Torra</a></li>
-                    <li><a href="preparo.html">Preparo</a></li>
-                    <li><a href="referencias.html">Referências</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-home.jpg')" onmouseout="mudafoto('_imagens/icone-torra.jpg')"><a href="home.html">Home</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-fruta.jpg')" onmouseout="mudafoto('_imagens/icone-torra.jpg')"><a href="fruta.html">Fruta</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-torra.jpg')" onmouseout="mudafoto('_imagens/icone-torra.jpg')"><a href="torra.html">Torra</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-preparo.jpg')" onmouseout="mudafoto('_imagens/icone-torra.jpg')"><a href="preparo.html">Preparo</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-referencia.jpg')" onmouseout="mudafoto('_imagens/icone-torra.jpg')"><a href="referencias.html">Referências</a></li>
                 </ul>
             </nav>
         </header>
@@ -46,10 +48,10 @@
                 <p>Café menos ácido, mais amargo e menos encorpado. Torra mais escura deixa o café gourmet mais amargo o que pode ser confundido com um café “mais forte”. Porém, a torra muito escura pode “queimar” o café, acentuando muito o amargor e praticamente eliminando a acidez e o corpo.</p>
             </article>
         </section>
-        <footer id="rodape">
-            <p>Copyright 2020 - by Bruno Virgilio<br>
-                Linkedin | GitHub</p>
-        </footer>         
+        <footer id="rodape"> <!--Para criar um rodape-->
+            <p>Feito por - Bruno Virgilio<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/brunovirgiliodelima/" target="_blank">Linkedin</a> | <a href="https://github.com/brunovirgilio" target="_blank">GitHub</a> | <a href="https://www.youtube.com/channel/UCen2C7TDVzuF6fs6dE5oR0A" target="_blank">YouTube</a></p>
+        </footer>        
     </div>
 </body>
 </html>

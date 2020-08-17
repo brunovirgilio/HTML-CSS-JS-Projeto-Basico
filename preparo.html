@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Brasilis - Preparo</title>
+    <title>Caneca de Café - Preparo</title>
     <link rel="stylesheet" href="_css/estilo.css"/>
     <link rel="stylesheet" href="_css/video.css"/>
 </head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
 <body>
     <div id="interface">
         <header id="cabecalho">
             <hgroup>
-                <h1>Café Brasilis</h1>
+                <h1>Caneca de Café</h1>
                 <h2>A cultura do Brasil</h2>
             </hgroup>
+            <img id="icone" src="_imagens/icone-preparo.jpg"/>
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul type="disc">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="fruta.html">Fruta</a></li>
-                    <li><a href="torra.html">Torra</a></li>
-                    <li><a href="preparo.html">Preparo</a></li>
-                    <li><a href="referencias.html">Referências</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-home.jpg')" onmouseout="mudafoto('_imagens/icone-preparo.jpg')"><a href="home.html">Home</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-fruta.jpg')" onmouseout="mudafoto('_imagens/icone-preparo.jpg')"><a href="fruta.html">Fruta</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-torra.jpg')" onmouseout="mudafoto('_imagens/icone-preparo.jpg')"><a href="torra.html">Torra</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-preparo.jpg')" onmouseout="mudafoto('_imagens/icone-preparo.jpg')"><a href="preparo.html">Preparo</a></li>
+                    <li onmouseover="mudafoto('_imagens/icone-referencia.jpg')" onmouseout="mudafoto('_imagens/icone-preparo.jpg')"><a href="referencias.html">Referências</a></li>
                 </ul>
             </nav>
         </header>
@@ -52,10 +54,10 @@
                 <p>Embora o nome sugira o contrário, essa cafeteira também foi criada por um italiano, que se inspirou em criações feitas por franceses anteriormente. A diferença entre os projetos foi a inserção de um êmbolo (também conhecido como haste), que tem como função a separação da borra do café do líquido propriamente dito. A textura da moagem deve, nesse caso, ser parecida com a do sal grosso, de forma a extrair melhor seu cafezinho. Para utilizá-la, deve-se preaquecer a cafeteira com água, posteriormente descartada, e depositar o pó no fundo do utensilio, enchendo-a com outra leva de água quente. Depois disso, é feita a mistura e a infusão do pó. Por fim, o êmbolo é pressionado, o café é coado e a mágica acontece. O resultado também é encorpado, mas possui um sabor levemente ácido e cítrico. É de fácil utilização, limpeza e manutenção.</p>
             </article>
         </section>
-<footer id="rodape"> <!--Para criar um rodape-->
-    <p>Copyright 2020 - by Bruno Virgilio<br>
-    Linkedin | GitHub</p>
-</footer>         
+        <footer id="rodape"> <!--Para criar um rodape-->
+            <p>Feito por - Bruno Virgilio<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/brunovirgiliodelima/" target="_blank">Linkedin</a> | <a href="https://github.com/brunovirgilio" target="_blank">GitHub</a> | <a href="https://www.youtube.com/channel/UCen2C7TDVzuF6fs6dE5oR0A" target="_blank">YouTube</a></p>
+        </footer>         
 </div>
 </body>
 </html>

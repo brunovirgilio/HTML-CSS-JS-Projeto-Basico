@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 body{
     background-color: #ffffff;
@@ -32,27 +33,32 @@ div#interface{
 header#cabecalho{
     border-bottom: 1px #301102 solid;
     background-color: #301102 ;
-    background: url("../_imagens/cabecalho-fruta.jpg");
+    /*background: url("../_imagens/cabecalho-fruta.jpg");*/
     height: 150px;
 }
 header#cabecalho h1{
-   font-family: Arial, sans-serif;
+    font-family: 'Dancing Script', cursive;
    color: #ffffff;
-   font-size: 30px;
+   font-size: 40px;
    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
    padding: 0px;
    margin-bottom: 0px;
    margin-left: 10px;
 }
 header#cabecalho h2{
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 20px;
     padding: 0px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 10px;
 }
-
+header#cabecalho img#icone{
+    position: absolute;
+    top: 39px;
+    right: 18px;
+}
 
 figure.foto-legenda{
     position: relative;
@@ -63,7 +69,7 @@ figure.foto-legenda{
 }
 figure.foto-legenda img{
     width: 100%;
-    height: 100%;
+    height: 100%;    
 }
 figure.foto-legenda figcaption{
     opacity: 0;
@@ -125,6 +131,8 @@ section#corpo{
     float: left;
     border-right: 1px solid #af4e1d;
     padding-right: 15px;
+    max-width:100%;
+    height:auto;
 }
 
 article#noticia-principal h2{ /*Essa parte configura so o artigo */
